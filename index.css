@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+.head h2{
+    font-size: 40px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px 60px;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 3px 3px 3px #9a9a9a;
+}
+.head a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #0575E6;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+.left h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+span{
+    color: red;
+}
+.left a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    font-size: 20px;
+}
